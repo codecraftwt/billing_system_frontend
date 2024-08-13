@@ -1,0 +1,124 @@
+<aside id="sidebar" class="sidebar" *ngIf="sidebarVisible">
+
+    <ul class="sidebar-nav" id="sidebar-nav">
+  
+      <li class="nav-item">
+        <a class="nav-link collapsed" routerLink="/admin/dashboard" routerLinkActive="active">
+          <i class="bi bi-grid"></i>
+          <span>Dashboard</span>
+        </a>
+      </li><!-- End Dashboard Nav -->
+  
+      <li class="nav-item">
+        <a class="nav-link collapsed" data-bs-target="#voter-nav" data-bs-toggle="collapse"
+          routerLink="/admin/voters/voter-list" routerLinkActive="active">
+          <i class="bi bi-people"></i><span>Voters</span>
+        </a>
+      </li><!-- End Voter Nav -->
+  
+      <li class="nav-item">
+        <a class="nav-link collapsed" data-bs-target="#voter-nav" data-bs-toggle="collapse"
+          routerLink="/admin/update/voters-update" routerLinkActive="active">
+          <i class="bi bi-people"></i><span>Voters Update</span>
+        </a>
+      </li><!-- End Voter Nav -->
+  
+      <li class="nav-item">
+        <a class="nav-link collapsed" data-bs-target="#booth-nav" data-bs-toggle="collapse"
+          routerLink="/admin/booths/booth-list" routerLinkActive="active">
+          <i class="ri-home-8-line"></i><span>Booths</span>
+        </a>
+      </li><!-- End booth Nav -->
+  
+      <li hidden class="nav-item">
+        <a class="nav-link collapsed" data-bs-target="#candidate-nav" data-bs-toggle="collapse"
+          routerLink="/admin/candidates/candidate-list" routerLinkActive="active">
+          <i class="ri-file-user-line"></i><span>Candidates</span>
+        </a>
+      </li><!-- End Voter Nav -->
+  
+      <li class="nav-item">
+        <a class="nav-link collapsed" data-bs-target="#village-nav" data-bs-toggle="collapse"
+          routerLink="/admin/villages/village-list" routerLinkActive="active">
+          <i class="ri-home-2-line"></i><span>Villages</span>
+        </a>
+      </li><!-- End viilage Nav -->
+  
+      <li class="nav-item">
+        <a class="nav-link collapsed" data-bs-target="#labharti-nav" data-bs-toggle="collapse"
+          routerLink="/admin/labhartis/labharti-list" routerLinkActive="active">
+          <i class="bi bi-people"></i><span>Labharthi's</span>
+        </a>
+      </li><!-- End Labharti Nav -->
+  
+      <li class="nav-item">
+        <a class="nav-link collapsed" data-bs-target="#event-nav" data-bs-toggle="collapse"
+          routerLink="/admin/events/event-list" routerLinkActive="active">
+          <i class="ri-calendar-event-line"></i><span>Events</span>
+        </a>
+      </li>
+      <!-- End Event Nav -->
+  
+      <li class="nav-item">
+        <a class="nav-link collapsed" data-bs-target="#members-nav" data-bs-toggle="collapse"
+          routerLink="/admin/members/member-list" routerLinkActive="active">
+          <i class="ri-group-line"></i><span>Members</span>
+        </a>
+      </li>
+      <!-- End members Nav -->
+  
+      <li class="nav-item">
+        <a class="nav-link collapsed" data-bs-target="#result-nav" data-bs-toggle="collapse"
+          routerLink="/admin/results/result-reports" routerLinkActive="active">
+          <i class="bx bxs-report"></i><span>Result Reports</span>
+        </a>
+      </li><!-- End RR Nav -->
+  
+      <li class="nav-item">
+        <a class="nav-link collapsed" data-bs-target="#result-nav" data-bs-toggle="collapse"
+          routerLink="/admin/analysis/analysis-page" routerLinkActive="active">
+          <i class="bi bi-clipboard2-data"></i><span>Voter Analysis</span>
+        </a>
+      </li><!-- End analysis Nav -->
+      <li class="nav-item">
+        <a class="nav-link collapsed" data-bs-target="#result-nav" data-bs-toggle="collapse"
+          routerLink="/admin/notification/notifications" routerLinkActive="active">
+          <i class="bi bi-bell-fill"></i><span>Notification</span>
+        </a>
+      </li><!-- End Notification Nav -->
+  
+      <li class="nav-item">
+        <a class="nav-link collapsed" data-bs-target="#members-nav" data-bs-toggle="collapse"
+          routerLink="/admin/assemblies/home" routerLinkActive="active">
+          <i class="bi bi-bank"></i><span>Assemblies</span>
+        </a>
+      </li>
+  
+      <!-- End assembly Nav -->
+      <li class="nav-item">
+        <a class="nav-link collapsed" data-bs-target="#members-nav" data-bs-toggle="collapse"
+          routerLink="/admin/casts/cast-list" routerLinkActive="active">
+          <i class="ri-community-line"></i><span>Castes</span>
+        </a>
+      </li>
+      <!-- End assembly Nav -->
+      <!-- End assembly Nav -->
+      <li class="nav-item">
+        <a class="nav-link collapsed" data-bs-target="#members-nav" data-bs-toggle="collapse"
+          routerLink="/admin/occupations/occupation-list" routerLinkActive="active">
+          <i class="bi bi-people"></i><span>Occupations</span>
+        </a>
+      </li>
+      <!-- End assembly Nav -->
+  
+      <li class="nav-item">
+        <a class="nav-link collapsed" data-bs-target="#members-nav" data-bs-toggle="collapse"
+          routerLink="/admin/survey-questions/question-list" routerLinkActive="active">
+          <i class="ri-survey-line"></i><span>Survey Questions</span>
+        </a>
+      </li>
+      <!-- End assembly Nav -->
+  
+    </ul>
+  
+  </aside><!-- End Sidebar-->

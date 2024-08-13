@@ -1,0 +1,23 @@
+.sidebar {
+    display: flex;
+    justify-content: center;
+
+    .sidebar-nav {
+        list-style: none;
+        width: 100%;
+        padding: 0;
+
+        a {
+            text-decoration: none;
+        }
+    }
+
+    .nav-item {
+        display: flex;
+        justify-content: center;
+        padding: 20px;
+        border-bottom: 1px solid black;
+    }
+
+    .nav-link {}
+}

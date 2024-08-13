@@ -1,0 +1,39 @@
+<div class="billing-system">
+    <div class="sidebar">
+        <app-food-items></app-food-items>
+    </div>
+    <div class="tables">
+        <app-tables></app-tables>
+    </div>
+    <div class="billing-section">
+        <div class="nav-bar">
+        </div>
+        <div class="col-lg-12 col-md-12">
+            <table class="table-responsive w-100">
+                <thead>
+                    <tr>
+                        <th>Items</th>
+                        <th>Qty</th>
+                        <th>Price</th>
+                        <th>Total</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr *ngFor="let menu of orderedMenu; let i = index">
+                        <td>{{menu.name}}</td>
+                        <div class="row">
+                            <td>
+                                <i class="fa-regular fa-square-minus icon me-2"></i>
+                                <input class="qty-txtbox" type="number" [(ngModel)]="quantity" name="" id="">
+                                <i class="fa-regular fa-square-plus icon ms-2"></i>
+                            </td>
+                        </div>
+                        <td>{{menu.price}}</td>
+                        <td>{{menu.price * menu.price}}</td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+
+    </div>
+</div>
